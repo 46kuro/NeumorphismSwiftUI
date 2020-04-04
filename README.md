@@ -1,4 +1,4 @@
-## Neumorphism in SwiftUI
+## Neumorphism with SwiftUI
 This is a example project to practice nuemorphism with SwiftUI.
 
 ## Calculator
