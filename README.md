@@ -1,13 +1,13 @@
 ## Neumorphism in SwiftUI
 This is a example project to practice nuemorphism with SwiftUI.
 
-## Calclate
+## Calculator
 
-![Screenshot(Light Mode)](/Images/light.PNG)
+Light Screen             |  Dark Screen
+:-------------------------:|:-------------------------:
+<img src="/Images/light.PNG" width="300">  |  <img src="/Images/dark.PNG" width="300">
 
-![Screenshot(Dark Mode)](/Images/dark.PNG)
-
-※ This is just a mock calculator screen, not implementing calculate function.
+※ This is just a mock calculator screen. It cant be used for calculator.
 
 ## References
 * https://www.hackingwithswift.com/articles/213/how-to-build-neumorphic-designs-with-swiftui
