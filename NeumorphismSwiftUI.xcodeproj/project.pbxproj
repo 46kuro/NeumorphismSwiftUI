@@ -13,6 +13,13 @@
 		D43A54FC24385B3000877C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43A54FB24385B3000877C62 /* Assets.xcassets */; };
 		D43A54FF24385B3000877C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43A54FE24385B3000877C62 /* Preview Assets.xcassets */; };
 		D43A550224385B3000877C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43A550024385B3000877C62 /* LaunchScreen.storyboard */; };
+		D43A551324385B8300877C62 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A550A24385B8300877C62 /* Color+Extension.swift */; };
+		D43A551424385B8300877C62 /* LinearGradient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A550B24385B8300877C62 /* LinearGradient+Extension.swift */; };
+		D43A551524385B8300877C62 /* NeumorphismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A550D24385B8300877C62 /* NeumorphismButton.swift */; };
+		D43A551624385B8300877C62 /* DarkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A550E24385B8300877C62 /* DarkBackground.swift */; };
+		D43A551724385B8300877C62 /* NeumorphismButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A550F24385B8300877C62 /* NeumorphismButtonStyle.swift */; };
+		D43A551824385B8300877C62 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A551024385B8300877C62 /* ColorfulBackground.swift */; };
+		D43A551924385B8300877C62 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A551224385B8300877C62 /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		D43A54FE24385B3000877C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D43A550124385B3000877C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43A550324385B3000877C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43A550A24385B8300877C62 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D43A550B24385B8300877C62 /* LinearGradient+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LinearGradient+Extension.swift"; sourceTree = "<group>"; };
+		D43A550D24385B8300877C62 /* NeumorphismButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeumorphismButton.swift; sourceTree = "<group>"; };
+		D43A550E24385B8300877C62 /* DarkBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkBackground.swift; sourceTree = "<group>"; };
+		D43A550F24385B8300877C62 /* NeumorphismButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeumorphismButtonStyle.swift; sourceTree = "<group>"; };
+		D43A551024385B8300877C62 /* ColorfulBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorfulBackground.swift; sourceTree = "<group>"; };
+		D43A551224385B8300877C62 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 		D43A54F424385B2E00877C62 /* NeumorphismSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D43A551124385B8300877C62 /* Calculator */,
+				D43A550924385B8300877C62 /* Extension */,
+				D43A550C24385B8300877C62 /* Neumorphism */,
 				D43A54F524385B2E00877C62 /* AppDelegate.swift */,
 				D43A54F724385B2E00877C62 /* SceneDelegate.swift */,
 				D43A54F924385B2E00877C62 /* ContentView.swift */,
@@ -73,6 +90,34 @@
 				D43A54FE24385B3000877C62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D43A550924385B8300877C62 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D43A550A24385B8300877C62 /* Color+Extension.swift */,
+				D43A550B24385B8300877C62 /* LinearGradient+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D43A550C24385B8300877C62 /* Neumorphism */ = {
+			isa = PBXGroup;
+			children = (
+				D43A550D24385B8300877C62 /* NeumorphismButton.swift */,
+				D43A550E24385B8300877C62 /* DarkBackground.swift */,
+				D43A550F24385B8300877C62 /* NeumorphismButtonStyle.swift */,
+				D43A551024385B8300877C62 /* ColorfulBackground.swift */,
+			);
+			path = Neumorphism;
+			sourceTree = "<group>";
+		};
+		D43A551124385B8300877C62 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D43A551224385B8300877C62 /* CalculatorView.swift */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +192,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D43A54F624385B2E00877C62 /* AppDelegate.swift in Sources */,
+				D43A551824385B8300877C62 /* ColorfulBackground.swift in Sources */,
+				D43A551624385B8300877C62 /* DarkBackground.swift in Sources */,
 				D43A54F824385B2E00877C62 /* SceneDelegate.swift in Sources */,
+				D43A551724385B8300877C62 /* NeumorphismButtonStyle.swift in Sources */,
+				D43A551424385B8300877C62 /* LinearGradient+Extension.swift in Sources */,
+				D43A551924385B8300877C62 /* CalculatorView.swift in Sources */,
+				D43A551524385B8300877C62 /* NeumorphismButton.swift in Sources */,
 				D43A54FA24385B2E00877C62 /* ContentView.swift in Sources */,
+				D43A551324385B8300877C62 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
